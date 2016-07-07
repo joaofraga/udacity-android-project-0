@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="br.com.joaofraga.portfolio.MainActivity">
+
+        <TextView
+            android:text="@string/my_portfolio_app"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/textView"
+            android:gravity="center"
+            android:layout_margin="@dimen/activity_vertical_margin" />
+        <Button
+            android:text="@string/popular_movies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/popular_movies"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            style="@style/deepButton" />
+        <Button
+            android:text="@string/stock_hawk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/stock_hawk"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            style="@style/deepButton" />
+        <Button
+            android:text="@string/build_it_bigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/build_it_bigger"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            style="@style/deepButton" />
+        <Button
+            android:text="@string/make_you_app_material"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/make_you_app_material"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            style="@style/deepButton" />
+        <Button
+            android:text="@string/go_ubiquitous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/go_ubiquitous"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            style="@style/deepButton" />
+        <Button
+            android:text="@string/capstone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/capstone"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            style="@style/deepButton" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
